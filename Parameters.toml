@@ -1,0 +1,19 @@
+[biophysical_constants]
+#   transcription_saturation_constant=0.036                # units: µM
+transcription_saturation_constant=36.0                # units: nM
+characteristic_transcript_length=1000                  # units: nt 
+#   energy_promoter_state_1=20.0                           # units: kJ/mol
+#   energy_promoter_state_2=-28.8                          # units: kJ/mol
+#Following Paper
+energy_promoter_state_1=28.8                           # units: kJ/mol
+energy_promoter_state_2=-20.0                          # units: kJ/mol
+#   inducer_dissociation_constant=24.19      # units: muM
+inducer_dissociation_constant=24190.0      # units: nM
+inducer_cooperativity_parameter=1.12    # units: dimensionless
+mRNA_half_life_in_min =0.225            # units: hr
+#   RNAPII_concentration=0.0675               # units: µM
+RNAPII_concentration=67.5               # units: nM
+#   transcription_elongation_rate=21.0              # units: nt/s 
+transcription_elongation_rate=75600.0              # units: nt/hr  
+transcription_time_constant=0.61        # units: dimensionless
+gene_length_in_nt=690                  # units: nt
